@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700,800,900&display=swap');
+
+
+
+
+@font-face {
+    font-family:Brandon-Bold;
+    src: url(../fonts/Brandon_bld.otf);
+}
+@font-face {
+    font-family:Brandon-Black;
+    src: url(../fonts/Brandon_blk.otf);
+}
+@font-face {
+    font-family:Brandon-Medium;
+    src: url(../fonts/Brandon_med.otf);
+}
+
+@font-face {
+    font-family:Brandon-Regular;
+    src: url(../fonts/Brandon_reg.otf);
+}
+@font-face {
+    font-family:Brandon-Italic;
+    src: url(../fonts/Brandon_reg_it.otf);
+}
+
+
+font-family: 'Mont-Book', sans-serif;   
+
+
+*,:after,:before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+body,html{
+    font-size:100%;
+    padding:0;
+    margin:0;
+     height: 100%;
+    font-family: 'Brandon-Regular', sans-serif;   
+} 
+
+
+.navbar-custom {
+     padding-top: 5px;
+    background-color: #344669!important;
+    
+}
+
+
+.navbar-custom ul li a {
+    color: #fff!important;
+    transition: 0.5s;
+}
+
+.navbar-custom ul li a:hover{
+    color:#fff;
+
+}
+
+
+.menu-list ul li  {
+    list-style: none;
+    margin: 0px;
+    padding: 8px 0px 0px 0px;
+     color:red!important;
+}
+
+
+
+
+.navbar-custom img {
+    width: 220px;
+    height:auto;
+   
+}
+
+.navbar button{
+  border:none!important;  
+}
+
+.nav-home-icon img {
+    width: 30px;
+    height: auto;
+    margin-top: -3px;
+}
+
+.nav-btn {
+   background-color: #4398cb;
+    border:none;
+    border-radius: 10px;
+    padding:10px 20px;
+     color: #fff!important;
+}
+
+.navbar-toggler-icon {
+ background-image:url(../images/menu-icon.png)!important;
+ border:none!important;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:720px) {
+   .nav-item {
+    border-bottom: #4b5e80 1px solid;
+}
+
+  
+}
